@@ -21,7 +21,7 @@ $navbar-default-bg: #00994d;
 }
 
 body{
-    background: asset_url('bg.jpg') no-repeat center center fixed;
+    background: asset_url('background') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -30,9 +30,11 @@ body{
 }
 
 .jumbotron{
-    background-image: asset_url('pitch2');
+    background-image: asset_url('pitch1');
     background-size:cover;
     height:450px;
+    background: rgb(200, 54, 54); /* This is for ie8 and below */
+    background: rgba(100, 150, 60, 0.3); 
 }
 .jumbotron h1{
     color: #fff;
@@ -45,9 +47,47 @@ body{
 .btn-xlarge {
     font-size: 1.7em;
     background-color: green;
-    margin-top: 15%; 
+    margin-top: 19%; 
     margin-left: 0%;
 }
 .btn-xlarge:hover {
   background-color: green;
+}
+#footer { 
+	clear: both; 
+	color: #999; 
+	background: asset_url('footertile') repeat-x;
+	font-size: .9em;
+	margin-top: 10% ;
+	 max-width: 100%;
+}
+#footerbg {
+	padding: 35px 0 15px 0;
+	background: asset_url('footer') ;
+	max-width: 100%;
+}
+#footer p { 
+	margin: 2px 10px 12px;
+	padding: 6px 0;
+}
+#footer_menu {
+	float: right;
+	padding: 4px 0 0;
+}
+#footer a { 
+	color: #999; 
+	margin: 0 5px 0 0; 
+	padding: 6px 10px;
+	background: asset_url('dot') no-repeat left center; 
+	border: 1px solid transparent;
+}
+#footer a:hover {
+	border-color: #555;
+}
+
+#copy { 
+	color: #777; font-size: 1.3em; 
+}
+#copy span { 
+	color: #999; 
 }
