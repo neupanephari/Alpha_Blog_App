@@ -58,8 +58,10 @@ body{
 	color: #999; 
 	background: asset_url('footertile') repeat-x;
 	font-size: .9em;
-	margin-top: 10% ;
-	 max-width: 100%;
+	position:absolute;
+    bottom:0;
+    width:100%;
+    height:100px;   
 }
 #footerbg {
 	padding: 35px 0 15px 0;
