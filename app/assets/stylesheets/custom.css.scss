@@ -19,6 +19,18 @@ $navbar-default-bg: #00994d;
 .center {
     text-align:center;
 }
+.navbar-default .navbar-nav > li > a {
+    color: #FFFFFF;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #18BC9C;
+	background-color: transparent;
+}
+.dropdown-menu > li > a:hover {
+    background-color: rgba(90, 70, 50, 0.2);
+    background-image: none;
+}
 
 body{
     background: asset_url('background') no-repeat center center fixed;
