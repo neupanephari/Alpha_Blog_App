@@ -34,7 +34,8 @@ body{
     background-size:cover;
     height:450px;
     background: rgb(200, 54, 54); /* This is for ie8 and below */
-    background: rgba(100, 150, 60, 0.3); 
+    background: rgba(100, 150, 60, 0.3);
+    margin-bottom:170px;
 }
 .jumbotron h1{
     color: #fff;
@@ -49,9 +50,18 @@ body{
     background-color: green;
     margin-top: 19%; 
     margin-left: 0%;
+    
 }
 .btn-xlarge:hover {
   background-color: green;
+}
+#form{
+    position: relative;
+    margin-bottom: 150px;
+}
+#show_article{
+    position:relative;
+    margin-bottom: 380px;
 }
 .article-actions {
     border-top: 1px solid #eaeaea;
@@ -70,14 +80,13 @@ body{
     padding-bottom: 15px;
 }
 #footer { 
-	clear: both; 
 	color: #999; 
 	background: asset_url('footertile') repeat-x;
 	font-size: .9em;
-	position:absolute;
+	position:relative;
     bottom:0;
     width:100%;
-    height:100px;   
+    height:auto;
 }
 #footerbg {
 	padding: 35px 0 15px 0;
