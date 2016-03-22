@@ -96,6 +96,15 @@ body{
     padding-top: 15px;
     padding-bottom: 15px;
 }
+#gravatar{
+    margin-bottom: 50px;
+}
+#usernametext{
+    margin-top:170px;
+    margin-bottom: 20px;
+    text-align:center;
+   color:red;
+}
 #footer { 
 	color: #999; 
 	background: asset_url('footertile') repeat-x;
