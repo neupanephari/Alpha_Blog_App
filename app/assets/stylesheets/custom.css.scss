@@ -1,5 +1,5 @@
 
-$navbar-default-bg: #00994d;
+$navbar-default-bg: rgba(77, 77, 77, 0.6);
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome";
@@ -41,6 +41,35 @@ $navbar-default-bg: #00994d;
     background-size: cover;
      margin-top: 0.1%; 
 }
+body.blurry_image{
+    background: asset_url('blurredbg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+     margin-top: 0.1%; 
+}
+body.sign_in{
+    background: asset_url('bg5') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+     margin-top: 0.1%; 
+     
+}
+#login{
+    margin-top: 60px;
+    margin-bottom: 250px;
+}
+h1,h4 {
+    color:  #ffffff;
+}
+a:link, a:visited {
+    color: white;
+}
+
+
 .jumbotron{
     background-image: asset_url('pitch1');
     background-size:cover;
@@ -70,6 +99,7 @@ $navbar-default-bg: #00994d;
 #form{
     position: relative;
     margin-bottom: 150px;
+    margin-top: 75px;
 }
 #show_article{
     position:relative;
