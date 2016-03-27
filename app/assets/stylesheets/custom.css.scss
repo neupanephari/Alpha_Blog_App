@@ -68,8 +68,8 @@ body.sign_in{
     margin-top: 80px;
     margin-bottom: 100px;
 }
-h1,h4 {
-    color:  #ffffff;
+h1{
+    color: #ffffff;
 }
 //a:link, a:visited {
     //color: #f2f2f2;
@@ -110,7 +110,10 @@ h1,h4 {
 #show_article{
     position:relative;
     margin-bottom: 380px;
+    //color: green;
+   background: rgba( 242, 242, 242, 1.0);
 }
+
 .article-meta-details{
     border-top: 1px solid #eaeaea;
     margin-top: 13px;
@@ -122,6 +125,7 @@ h1,h4 {
 }
 .description{
     margin-top: 0;
+    
 }
 .article-title{
     font-weight: bold;
@@ -131,12 +135,14 @@ h1,h4 {
     border-top: 1px solid #eaeaea ;
     padding-top: 15px;
     padding-bottom: 15px;
+    
+    
 }
 .listing{
     list-style: none;
     padding-left:0;
 }
-#cancelrequest,p {
+#cancelrequest {
     color: white;
     
 }
