@@ -143,6 +143,15 @@ h1{
     list-style: none;
     padding-left:0;
 }
+.badge{
+    background-color: #00ffcc;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+.input_checkbox input{
+    width:auto !important;
+}
 #cancelrequest {
     color: white;
     
