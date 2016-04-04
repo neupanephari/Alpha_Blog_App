@@ -31,6 +31,13 @@
       <% end %>
       <%= link_to "view all article", articles_path, class: "btn btn-xs btn-success" %>
       </div>
+         <%= render 'comments/form' %>
+         
+          <div class="comment-actions">
+              
+              <%= render @article.comments %>
+          </div>
+          
     </div>  
     </body>
    

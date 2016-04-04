@@ -1,0 +1,13 @@
+
+<%= form_for([@article, @article.comments.build]) do |f| %>
+      <h4>Leave a Comment:</h4>
+      <form role = "form">
+             <div class="form-group">
+              <%= f.text_area :body, rows: 3 , class: "form-control",class:"summernote",
+                      placeholder: "Please Enter your comment",autofocus: true %>
+              </div>
+              <%= f.submit  class: 'btn btn-primary btn-lg' %>
+             </form><br>
+<p><span class="badge"><%= pluralize(@article.comments.count, "comment") if @article.comments%> </span></p><br>
+             <% end %>
+             
